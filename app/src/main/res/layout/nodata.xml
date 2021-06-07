@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/lin_nodata"
+    android:visibility="gone"
+    android:gravity="center">
+
+
+    <com.airbnb.lottie.LottieAnimationView
+        android:id="@+id/lottie_icon_mobile"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:layout_margin="3dp"
+        android:scaleType="fitXY"
+        app:lottie_autoPlay="true"
+        app:lottie_loop="true"
+        app:lottie_rawRes="@raw/no_data" />
+
+   <!-- <ImageView
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:src="@drawable/nodata"/>-->
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Sorry,no result found!"
+        android:textSize="18dp"
+        android:layout_marginTop="30dp"
+        android:fontFamily="@font/opensans_bold"
+        android:textStyle="bold"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="What you searched was unfortunately \n not found or doesn't exist"
+        android:fontFamily="@font/opensans_regular" />
+
+    <Button
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:text="TRY AGAIN"
+        android:layout_marginTop="50dp"
+        android:id="@+id/nodata_tryagain"
+        android:textColor="@color/white"
+        android:backgroundTint="@color/rad"
+        android:fontFamily="@font/opensans_bold"
+        android:background="@drawable/btn_llogin"/>
+
+</LinearLayout>

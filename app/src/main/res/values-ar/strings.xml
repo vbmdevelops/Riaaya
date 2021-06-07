@@ -1,0 +1,125 @@
+<resources>
+    <string name="app_name">Meri Sadak</string>
+    <string name="welcome">مرحبا</string>
+    <string name="wel_des">الرجاء إدخال التفاصيل أدناه لتسجيل الدخول إلى حسابك</string>
+    <string name="email">البريد الإلكتروني</string>
+    <string name="password">كلمه السر</string>
+    <string name = "name">الاسم</string>
+    <string name = "contactno">رقم الاتصال</string>
+    <string name = "dob">تاريخ الميلاد</string>
+    <string name = "conpassword"> تأكيد كلمة المرور</string>
+    <string name = "txt_signup">تسجيل</string>
+    <string name = "txt_alreadyhave">هل لديك حساب؟</string>
+    <string name="txt_login">تسجيل الدخول</string>
+    <string name = "txt_forgotpass">هل نسيت كلمة المرور؟</string>
+    <string name = "txt_donthave">ألم يكن لديك حساب ؟</string>
+    <string name = "txt_createacc"> إنشاء حساب</string>
+    <string name = "medicaltest">الفحوصات الطبية</string>
+    <string name="hospitals">المستشفيات</string>
+    <string name = "seeall">رؤية الكل</string>
+    <string name="booktest">اختبار الكتاب</string>
+    <string name = "offers">العروض</string>
+    <string name = "ads">الإعلانات</string>
+    <string name = "login">تسجيل الدخول</string>
+    <string name = "logout">تسجيل الخروج</string>
+    <string name="viewmore">عرض المزيد +</string>
+    <string name="labtestdetail">تفاصيل الاختبار المعملي</string>
+    <string name = "bookyourtest">احجز اختبارك</string>
+    <string name = "labtestdetails">تفاصيل الاختبار المعملي</string>
+    <string name="booknow">احجز الآن</string>
+
+
+    <string name = "patientname">اسم المريض</string>
+    <string name = "age">مثال: 52</string>
+    <string name = "gender">ذكر</string>
+    <string name = "patientcontactno">رقم اتصال المريض</string>
+    <string name = "patientemail">معرف البريد الإلكتروني للمريض</string>
+    <string name = "dod">DOB</string>
+
+
+    <string name = "collectionplace">مكان المجموعة</string>
+    <string name = "preferredtime">الوقت المفضل</string>
+    <string name = "salplecolladdress">نموذج عنوان المجموعة</string>
+    <string name = "offercode">كود العرض</string>
+    <string name = "testprice">سعر الاختبار</string>
+    <string name = "offerprice">سعر العرض</string>
+    <string name = "totalamount">المبلغ الإجمالي</string>
+
+
+    <string name = "namemsg"> الرجاء إدخال الاسم </string>
+    <string name = "namemsg1"> اسم غير صالح </string>
+    <string name = "emailmsg"> الرجاء إدخال معرف البريد الإلكتروني </string>
+    <string name = "emailmsg1"> معرف البريد الإلكتروني غير صالح </string>
+    <string name = "passwordmsg"> الرجاء إدخال كلمة المرور </string>
+    <string name = "nointernet"> لا يوجد اتصال بالإنترنت </string>
+    <string name = "cnomsg"> الرجاء إدخال رقم الاتصال </string>
+    <string name = "cnomsg1"> رقم جهة الاتصال غير صالح </string>
+    <string name = "dobmsg"> الرجاء إدخال تاريخ الميلاد </string>
+    <string name = "dobmsg1"> تاريخ ميلاد غير صالح </string>
+    <string name = "cpassmsg"> الرجاء إدخال تأكيد كلمة المرور </string>
+    <string name = "cpassmsg1"> تاريخ غير صالح لتأكيد كلمة المرور </string>
+    <string name = "passnotmatch"> كلمة المرور غير متطابقة </string>
+
+    <string name = "logppopup"> هل أنت متأكد أنك تريد الخروج؟ </string>
+    <string name = "yes"> نعم </string>
+    <string name = "no"> لا </string>
+
+    <string name = "male"> ذكر </string>
+    <string name = "female"> أنثى </string>
+    <string name = "cfh"> التجميع من المنزل </string>
+    <string name = "vh"> قم بزيارة المستشفى </string>
+    <string name = "sypt"> حدد الوقت المفضل لديك </string>
+
+
+    <string name = "patientnamemsg"> الرجاء إدخال اسم المريض </string>
+    <string name = "patientmsg1"> اسم المريض </string>
+    <string name = "agemsg"> الرجاء إدخال العمر </string>
+    <string name = "agemsg1"> عمر غير صالح </string>
+    <string name = "addressmsg"> الرجاء إدخال العنوان</string>
+    <string name = "addressmsg1"> عنوان غير صالح </string>
+
+    <string name = "availabletest"> الاختبار المتاح </string>
+    <string name="txtprice">سعر الاختبار: ريال عماني</string>
+
+    <string name = "bookedtest">اختبار محجوز</string>
+    <string name = "testhistory">تاريخ الاختبار</string>
+    <string name = "save"> حفظ </string>
+
+    <string name = "bookingno">رقم الحجز:</string>
+    <string name = "patientname1">اسم المريض:</string>
+    <string name = "testname">اسم الاختبار:</string>
+    <string name = "date"> التاريخ:</string>
+    <string name = "status">الحالة:</string>
+
+    <string name = "penmsg"> لم يتم تعيين وكيل المجموعة بعد </string>
+    <string name = "susmsg"> تعيين وكيل المجموعة </string>
+    <string name="success"> لقد حجزت اختبارك بنجاح </string>
+    <string name ="gotohome"> العودة إلى الصفحة الرئيسية </string>
+    <string name="successmsg">لقد قمت بحجز اختبارك بنجاح. سيتم تحديثك قريبًا بتفاصيل وكيل التحصيل. شكرا لك.</string>
+
+    <string name = "bookinglist"> قائمة الحجز </string>
+    <string name = "bookingdetail"> تفاصيل الحجز </string>
+    <string name = "testlist"> قائمة الاختبار </string>
+    <string name = "testdetail"> تفاصيل الاختبار </string>
+
+    <string name = "afr"> في انتظار التقرير </string>
+    <string name = "rg"> تم إنشاء التقرير </string>
+
+    <string name = "ag"> العمر: </string>
+    <string name = "address"> العنوان: </string>
+    <string name = "hosname"> اسم المستشفى: </string>
+    <string name = "rgd"> تاريخ إنشاء التقرير: </string>
+    <string name = "rgt"> تقرير وقت الإنشاء: </string>
+    <string name = "report_status"> تقرير الحالة: </string>
+    <string name = "rname"> الاسم: </string>
+    <string name = "rgender"> الجنس: </string>
+    <string name = "rtestname"> اسم الاختبار </string>
+    <string name = "result"> النتيجة </string>
+    <string name = "unit"> الوحدات </string>
+    <string name = "bri"> Bio.Ref.Interval </string>
+
+    <string name = "nodata"> لم يتم العثور على البيانات </string>
+    <string name = "server"> نحن نعمل على إنشاء شيء أفضل. \ n يرجى المحاولة مرة أخرى لاحقًا </string>
+
+
+</resources>

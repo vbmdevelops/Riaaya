@@ -1,0 +1,219 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_marginTop="5dp"
+    android:layout_height="wrap_content">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:layout_marginBottom="5dp"
+
+        tools:ignore="MissingConstraints">
+
+
+<!--
+        <string name = "bookingno">رقم الحجز:</string>
+        <string name = "patientname1">اسم المريض:</string>
+        <string name = "testname">اسم الاختبار:</string>
+        <string name = "date"> التاريخ:</string>
+        <string name = "status">الحالة:</string>-->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:id="@+id/lin_1"
+            android:layout_toLeftOf="@+id/lin_2"
+            android:layout_alignParentLeft="true">
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:orientation="horizontal"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="12dp"
+                    android:fontFamily="@font/opensans_bold"
+                    android:textColor="@color/black"
+                    android:text="@string/bookingno"
+                    android:gravity="center" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="11dp"
+                    android:id="@+id/txt_bookingno"
+                    android:layout_marginLeft="5dp"
+                    android:singleLine="true"
+                    android:textColor="@color/black"
+                    android:fontFamily="@font/opensans_regular"
+                    android:text="Arterial blood gas (ABG)"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:orientation="horizontal"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="12dp"
+                    android:fontFamily="@font/opensans_bold"
+                    android:textColor="@color/black"
+                    android:text="@string/patientname1"
+                    android:gravity="center" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="11dp"
+                    android:singleLine="true"
+                    android:id="@+id/patient_name"
+                    android:layout_marginLeft="5dp"
+                    android:textColor="@color/black"
+                    android:fontFamily="@font/opensans_regular"
+                    android:text="Arterial blood gas (ABG)"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:orientation="horizontal"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="12dp"
+                    android:fontFamily="@font/opensans_bold"
+                    android:textColor="@color/black"
+                    android:text="@string/testname"
+                    android:gravity="center" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="11dp"
+                    android:singleLine="true"
+                    android:id="@+id/test_name"
+                    android:layout_marginLeft="5dp"
+                    android:textColor="@color/black"
+                    android:fontFamily="@font/opensans_regular"
+                    android:text="Arterial blood gas (ABG)"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:orientation="horizontal"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="12dp"
+                    android:fontFamily="@font/opensans_bold"
+                    android:textColor="@color/black"
+                    android:text="@string/date"
+                    android:gravity="center" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="11dp"
+                    android:layout_marginLeft="5dp"
+                    android:singleLine="true"
+                    android:id="@+id/txt_date"
+                    android:textColor="@color/black"
+                    android:fontFamily="@font/opensans_regular"
+                    android:text="Arterial blood gas (ABG)"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:orientation="horizontal"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="12dp"
+                    android:fontFamily="@font/opensans_bold"
+                    android:textColor="@color/black"
+                    android:text="@string/status"
+                    android:id="@+id/txt_st"
+                    android:gravity="center" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="11dp"
+                    android:layout_marginLeft="5dp"
+                    android:id="@+id/txt_status"
+                    android:textColor="@color/black"
+                    android:singleLine="true"
+                    android:fontFamily="@font/opensans_regular"
+                    android:text="Collection Agent Not Assigned Yet"/>
+
+
+            </LinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="5dp"/>
+
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_centerVertical="true"
+            android:layout_centerHorizontal="true"
+            android:id="@+id/lin_2"
+            android:gravity="center"
+            android:layout_alignParentRight="true"
+            android:layout_marginLeft="10dp">
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="30dp"
+                android:text="View"
+                android:textColor="@color/white"
+                android:background="@drawable/btn_llogin"
+                android:backgroundTint="@color/rad"
+                android:textStyle="bold"
+                android:gravity="center"
+                android:id="@+id/txt_viewmore"
+                android:fontFamily="@font/opensans_bold"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"/>
+
+
+
+        </LinearLayout>
+
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0.5dp"
+            android:layout_marginTop="10dp"
+            android:layout_alignParentBottom="true"
+            android:background="@color/darkgray"/>
+
+
+
+    </RelativeLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

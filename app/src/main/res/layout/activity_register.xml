@@ -1,0 +1,276 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white">
+
+    <androidx.core.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:scrollbars="none"
+        tools:ignore="MissingConstraints">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="150dp"
+                    android:background="@drawable/header_view"/>
+
+                <ImageView
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:layout_gravity="center|top"
+                    android:layout_marginTop="100dp"
+                    android:src="@drawable/splash_logo"/>
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginTop="210dp"
+                    android:gravity="center|top"
+                    android:orientation="vertical">
+
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_marginLeft="20sp"
+                        android:layout_marginRight="20sp"
+                        android:layout_height="50dp"
+                        android:layout_marginTop="20dp"
+                        android:background="@drawable/btn_llogin">
+
+
+                        <EditText
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:background="@null"
+                            android:fontFamily="@font/opensans_regular"
+                            android:gravity="center"
+                            android:hint="@string/name"
+                            android:id="@+id/et_reg_name"
+                            android:inputType="textEmailAddress"
+                            android:singleLine="true"
+                            android:paddingLeft="10dp"
+                            android:paddingRight="10dp"
+                            android:textColor="@color/darkgray"
+                            android:textColorHint="@color/gray"
+                            android:textSize="14dp" />
+
+
+
+                    </RelativeLayout>
+
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_marginLeft="20sp"
+                        android:layout_marginRight="20sp"
+                        android:layout_height="50dp"
+                        android:layout_marginTop="20dp"
+                        android:background="@drawable/btn_llogin">
+
+
+
+                        <EditText
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:hint="@string/email"
+                            android:textSize="14dp"
+                            android:paddingLeft="10dp"
+                            android:paddingRight="10dp"
+                            android:gravity="center"
+                            android:id="@+id/et_reg_email"
+                            android:singleLine="true"
+                            android:inputType="textEmailAddress"
+                            android:textColorHint="@color/gray"
+                            android:textColor="@color/darkgray"
+                            android:fontFamily="@font/opensans_regular"
+                            android:background="@null"/>
+
+
+
+                    </RelativeLayout>
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_marginLeft="20sp"
+                        android:layout_marginRight="20sp"
+                        android:layout_height="50dp"
+                        android:layout_marginTop="20dp"
+                        android:background="@drawable/btn_llogin">
+
+
+
+                        <EditText
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:hint="@string/contactno"
+                            android:textSize="14dp"
+                            android:gravity="center"
+                            android:singleLine="true"
+                            android:inputType="number"
+                            android:paddingLeft="10dp"
+                            android:id="@+id/et_reg_cno"
+                            android:paddingRight="10dp"
+                            android:textColorHint="@color/gray"
+                            android:textColor="@color/darkgray"
+                            android:fontFamily="@font/opensans_regular"
+                            android:background="@null"/>
+
+
+                    </RelativeLayout>
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_marginLeft="20sp"
+                        android:layout_marginRight="20sp"
+                        android:layout_height="50dp"
+                        android:layout_marginTop="20dp"
+                        android:background="@drawable/btn_llogin">
+
+
+                        <EditText
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:hint="@string/dob"
+                            android:textSize="14dp"
+                            android:gravity="center"
+                            android:paddingLeft="10dp"
+                            android:id="@+id/et_reg_dob"
+                            android:inputType="date"
+                            android:paddingRight="10dp"
+                            android:singleLine="true"
+                            android:textColorHint="@color/gray"
+                            android:textColor="@color/darkgray"
+                            android:fontFamily="@font/opensans_regular"
+                            android:background="@null"/>
+
+
+                    </RelativeLayout>
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_marginLeft="20sp"
+                        android:layout_marginRight="20sp"
+                        android:layout_height="50dp"
+                        android:layout_marginTop="20dp"
+                        android:background="@drawable/btn_llogin">
+
+
+                        <EditText
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:hint="@string/password"
+                            android:textSize="14dp"
+                            android:gravity="center"
+                            android:singleLine="true"
+                            android:paddingLeft="10dp"
+                            android:paddingRight="10dp"
+                            android:inputType="textPassword"
+                            android:textColorHint="@color/gray"
+                            android:id="@+id/et_reg_password"
+                            android:textColor="@color/gray"
+                            android:fontFamily="@font/opensans_regular"
+                            android:background="@null"/>
+
+
+                    </RelativeLayout>
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_marginLeft="20sp"
+                        android:layout_marginRight="20sp"
+                        android:layout_height="50dp"
+                        android:layout_marginTop="20dp"
+                        android:background="@drawable/btn_llogin">
+
+
+                        <EditText
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:hint="@string/conpassword"
+                            android:textSize="14dp"
+                            android:gravity="center"
+                            android:singleLine="true"
+                            android:inputType="textPassword"
+                            android:textColorHint="@color/gray"
+                            android:textColor="@color/darkgray"
+                            android:paddingLeft="10dp"
+                            android:paddingRight="10dp"
+                            android:id="@+id/et_reg_conpassword"
+                            android:fontFamily="@font/opensans_regular"
+                            android:background="@null"/>
+
+
+                    </RelativeLayout>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="50dp"
+                        android:layout_margin="20dp"
+                        android:gravity="center"
+                        android:textColor="@color/white"
+                        android:textSize="14dp"
+                        android:id="@+id/txt_signup"
+                        android:textStyle="bold"
+                        android:fontFamily="@font/opensans_bold"
+                        android:backgroundTint="@color/black"
+                        android:background="@drawable/btn_llogin"
+                        android:text="@string/txt_signup"/>
+
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:layout_marginLeft="20sp"
+                        android:layout_marginRight="20sp"
+                        android:layout_marginBottom="20dp"
+                        android:textColor="@color/black"
+                        android:textSize="16dp"
+                        android:orientation="vertical"
+                        android:textStyle="bold">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:fontFamily="@font/opensans_regular"
+                            android:text="@string/txt_alreadyhave"
+                            android:gravity="center"
+                            android:textColor="@color/gray"
+                            android:textSize="14dp"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="20dp"
+                            android:fontFamily="@font/opensans_regular"
+                            android:text="@string/txt_login"
+                            android:gravity="center"
+                            android:id="@+id/txt_login"
+                            android:textColor="@color/rad"
+                            android:textSize="14dp"
+                            android:textStyle="bold" />
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+            </FrameLayout>
+
+        </LinearLayout>
+    </androidx.core.widget.NestedScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

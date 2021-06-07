@@ -1,0 +1,140 @@
+<resources>
+    <string name="app_name">Riaaya</string>
+
+    <string name="welcome">Welcome</string>
+    <string name="wel_des">Please enter below details to login to your account</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+
+    <string name="name">Name</string>
+    <string name="contactno">Contact Number</string>
+    <string name="dob">Date Of Birth</string>
+    <string name="conpassword">Confirm Password</string>
+    <string name="txt_signup">Sign Up</string>
+    <string name="txt_alreadyhave">Already Have An Account?</string>
+
+    <string name="txt_login">Login</string>
+    <string name="txt_forgotpass">Forgot password?</string>
+    <string name="txt_donthave">Didn’t have an account ? </string>
+    <string name="txt_createacc">Create Account</string>
+
+    <string name="medicaltest">Medical Tests</string>
+    <string name="hospitals">Hospitals</string>
+    <string name="seeall">See All</string>
+
+    <string name="booktest">Book Test</string>
+    <string name="offers">Offers</string>
+    <string name="ads">Ads</string>
+    <string name="login">Login</string>
+    <string name="logout">Logout</string>
+    <string name="viewmore">View More+</string>
+
+    <string name="labtestdetail">Lab Test Details</string>
+    <string name="bookyourtest">Book Your Test</string>
+    <string name="labtestdetails">Lab Test Details</string>
+
+    <string name="booknow">Book Now</string>
+    
+    
+    <string name="patientname">Patient Name</string>
+    <string name="age">EG :52</string>
+    <string name="gender">Gender</string>
+    <string name="patientcontactno">Patient Contact Number</string>
+    <string name="patientemail">Patient Email ID</string>
+    <string name="dod">DOB</string>
+
+
+    <string name="collectionplace">Collection Place</string>
+    <string name="preferredtime">Preferred Time</string>
+    <string name="salplecolladdress">Sample Collection Address</string>
+    <string name="offercode">Offer Code</string>
+    <string name="testprice">Test Price</string>
+    <string name="offerprice">Offer Price</string>
+    <string name="totalamount">Total Amount</string>
+
+
+    <string name="namemsg">Please enter the name</string>
+    <string name="namemsg1">Invalid name</string>
+    <string name="emailmsg">Please enter the email id</string>
+    <string name="emailmsg1">Invalid email id</string>
+    <string name="passwordmsg">Please enter the password</string>
+    <string name="nointernet">No internet connection</string>
+    <string name="cnomsg">Please enter the contact number</string>
+    <string name="cnomsg1">Invalid contact number</string>
+    <string name="dobmsg">Please enter the date of birth</string>
+    <string name="dobmsg1">Invalid date of birth</string>
+    <string name="cpassmsg">Please enter the confirm password</string>
+    <string name="cpassmsg1">Invalid date of confirm password</string>
+    <string name="passnotmatch">Password is not match</string>
+
+
+    <string name="logppopup">Are you sure you want to logout ?</string>
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+
+    <string name="male">Male</string>
+    <string name="female">Female</string>
+
+    <string name="cfh">Collect From Home</string>
+    <string name="vh">Visit Hospital</string>
+    <string name="sypt">Select Your Preferred Time</string>
+
+
+
+
+    <string name="patientnamemsg">Please enter the patient name</string>
+    <string name="patientmsg1">Invalid patient name</string>
+    <string name="agemsg">Please enter the age</string>
+    <string name="agemsg1">Invalid age</string>
+    <string name="addressmsg">Please enter the address</string>
+    <string name="addressmsg1">Invalid address</string>
+
+    <string name="availabletest">Available Test</string>
+    <string name="txtprice">Test Price: OMR</string>
+
+    <string name="bookedtest">Booked Test</string>
+    <string name="testhistory">Test History</string>
+    <string name="save">Save</string>
+
+
+
+    <string name="bookingno">Booking No :</string>
+    <string name="patientname1">Patient Name :</string>
+    <string name="testname">Test Name :</string>
+    <string name="date">Date :</string>
+    <string name="status">Status :</string>
+
+    <string name="penmsg">Collection Agent Not Assigned Yet</string>
+    <string name="susmsg">Collection Agent Assigned</string>
+
+    <string name="success">You Have Successfully Booked Your Test</string>
+    <string name="gotohome">Go Home</string>
+    <string name="successmsg">You have booked your test successfully. You will be updated shortly with Collection Agent details. Thank you.</string>
+
+    <string name="bookinglist">Booking List</string>
+    <string name="bookingdetail">Booking Details</string>
+    <string name="testlist">Test List</string>
+    <string name="testdetail">Test Details</string>
+
+
+    <string name="afr">Awaiting for Report</string>
+    <string name="rg">Report Generated</string>
+
+
+    <string name="ag">Age :</string>
+    <string name="address">Address :</string>
+    <string name="hosname">Hospital Name :</string>
+    <string name="rgd">Report Genarate Date :</string>
+    <string name="rgt">Report Genarate Time :</string>
+    <string name="report_status">Report Status :</string>
+    <string name="rname">Name :</string>
+    <string name="rgender">Gender :</string>
+    <string name="rtestname">Test Name</string>
+    <string name="result">Result</string>
+    <string name="unit">Units</string>
+    <string name="bri">Bio.Ref.Interval</string>
+
+    <string name="nodata">Data Not Found</string>
+    <string name="server">We are working towards creating something better.\n Please try again later</string>
+
+</resources>
